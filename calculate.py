@@ -24,7 +24,6 @@ def calculate(Coin,Price,Close,Hıgh,Low,secUp,secDown,CoinList):
         lastATR = lenATR - 1                              # ATR İndex Bulma
         ATR = ((FullATR[lastATR]))  
         ATR = round(ATR,2)                      # Güncel ATR Değeri
-        print(ATR)
 
     def calculateADX(Hıgh,Low,Close):
         global ADX
